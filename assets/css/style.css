@@ -14,6 +14,7 @@ html {
 
 #Header {
     display: block;
+    position: relative;
     height: 88px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -127,6 +128,8 @@ html {
     flex-basis: 83.3333%;
     max-width: 83.3333%;
     height: 100%;
+    position: relative;
+    text-align: left;
 }
 
 .main-menu {
@@ -168,15 +171,40 @@ html {
     font-size: 14px;
 }
 
+.nav li:hover a {
+    color: #00b8ff; 
+}
+
 .nav li a i {
     font-size: 30px;
    
 }
 #SearchBox {
-    display: block;
-    background-color: rgb(4, 7, 68);
-    height: 500px;
-    width: 100%;
+    
+    background: url(../img/hero_home_bg_1.svg) center bottom no-repeat #040744;
+    background-size: cover;
+    position: relative;
+    padding-left: 152px;
+    box-sizing: border-box;
+}
+
+#SearchBox .content {
+    position: absolute;
+    top: 20%;
+    left: 39%;
+}
+#SearchBox div h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#SearchBox div p {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    
 }
 
 #Content {
