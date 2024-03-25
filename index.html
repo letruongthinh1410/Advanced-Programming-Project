@@ -81,17 +81,83 @@
             </div>
         </div>
 
-        <div id="SearchBox">
-            <img src="https://www.booknmeet.com/img/hero_home_bg_1.svg" alt="Search">
+        <div class="SearchBox version1">
+            <!-- <img src="https://www.booknmeet.com/img/hero_home_bg_1.svg" alt="Search"> -->
             <div class="content">
                 <h3>BOOK N MEET A DOCTOR!</h3>
                 <p>
 					India's best online appointment scheduling platform
 				</p>
-                <div class="input">
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
+                <div class="Searchbox_input">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <select class="search-query statefld" name="state" id="state">
+                                    <option value="">State</option>
+                                    <option value="AP"> Andhra Pradesh</option>
+                                    <option value="AR"> Arunachal Pradesh</option>
+                                    <option value="AN"> Andaman & Nicobar</option>
+                                    <option value="CH"> Chandigarh</option>
+                                    <option value="CT"> Chhattisgarh</option>
+                                    <option value="DN"> Dadra and Nagar Haveli</option>
+                                    <option value="DD"> Daman & Diu</option>
+                                    <option value="AS"> Assam</option>
+                                    <option value="BR"> Bihar</option>
+                                    <option value="DL"> Delhi</option>
+                                    <option value="GA"> Goa</option>
+                                    <option value="GJ"> Gujarat</option>
+                                    <option value="HR"> Haryana</option>
+                                    <option value="HP"> Himachal Pradesh</option>
+                                    <option value="LD"> Lakshadweep</option>
+                                    <option value="PY"> Puducherry</option>
+                                    <option value="JM"> Jammu</option>
+                                    <option value="KS"> Kashmir</option>
+                                    <option value="JH"> Jharkhand</option>
+                                    <option value="KA"> Karnataka</option>
+                                    <option value="KL" selected="selected"> Kerala</option>
+                                    <option value="MP"> Madhya Pradesh</option>
+                                    <option value="MH"> Maharashtra</option>
+                                    <option value="MN"> Manipur</option>
+                                    <option value="ML"> Meghalaya</option>
+                                    <option value="MZ"> Mizoram</option>
+                                    <option value="NL"> Nagaland</option>
+                                    <option value="OR"> Odisha</option>
+                                    <option value="PB"> Punjab</option>
+                                    <option value="RJ"> Rajasthan</option>
+                                    <option value="SK"> Sikkim</option>
+                                    <option value="TN"> Tamil Nadu</option>
+                                    <option value="TR"> Tripura</option>
+                                    <option value="UK"> Uttarakhand</option>
+                                    <option value="UP"> Uttar Pradesh</option>
+                                    <option value="WB"> West Bengal</option>
+                                    
+                                    
+
+                                </select>
+                            </div>
+                            <div class="col-lg-4">
+                                <select name="city" id="city" class="search-query cityfld">
+                                    <option value="Alappuzha">Alappuzha</option>
+                                    <option value="Ernakulam" selected="selected">Ernakulam</option>
+                                    <option value="Idukki">Idukki</option>
+                                    <option value="Kollam">Kollam</option>
+                                    <option value="Kannur">Kannur</option>
+                                    <option value="Kasaragod">Kasaragod</option>
+                                    <option value="Kottayam">Kottayam</option>
+                                    <option value="Kozhikode">Kozhikode</option>
+                                    <option value="Malappuram">Malappuram</option><option value="Palakkad">Palakkad</option>
+                                    <option value="Pathanamthitta">Pathanamthitta</option>
+                                    <option value="Thrissur">Thrissur</option>
+                                    <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                                    <option value="Wayanad">Wayanad</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-4">
+                                <input type="text" class="search-query ui-autocomplete-input" placeholder="Doctor / Specialization">
+                                <input type="submit" class="button_submit" value="Search">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

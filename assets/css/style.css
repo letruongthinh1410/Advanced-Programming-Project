@@ -179,32 +179,125 @@ html {
     font-size: 30px;
    
 }
-#SearchBox {
-    
-    background: url(../img/hero_home_bg_1.svg) center bottom no-repeat #040744;
-    background-size: cover;
-    position: relative;
-    padding-left: 152px;
-    box-sizing: border-box;
+
+.SearchBox {
+    height: 500px;
+    width: 100%;
+    display: table;
 }
 
-#SearchBox .content {
-    position: absolute;
-    top: 20%;
-    left: 39%;
+.SearchBox.version1 {
+    
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(4, 7, 68);
+    background-image: url(https://www.booknmeet.com/img/hero_home_bg_1.svg);
+    background-origin: padding-box;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    display: block;
+    font-family: "Noto Sans JP", Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    height: 500px;
+    line-height: 18px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: 100%     ;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-#SearchBox div h3 {
+
+.SearchBox .content {
+    padding-top: 121px;
+    vertical-align: middle;
+    text-align: center;
+}
+.SearchBox div h3 {
     color: white;
     font-size: 30px;
     font-weight: 300;
 }
 
-#SearchBox div p {
+.SearchBox div p {
     color: white;
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 1.5px;
-    
+    margin-top: 5px;
+    margin-bottom: 15px;
+    line-height: 24px;
+    text-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.Searchbox_input {
+    display: block;
+    width: 100%;
+}
+
+.Searchbox_input .container {
+    display: flex;
+    justify-content: center;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.col-lg-4 {
+    color: #08399c;
+    display: block;
+    box-sizing: border-box;
+    flex-basis: 33.3333%;
+    max-width: 33.3333%;
+    height: 100%;
+    position: relative;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-lg-4 select {
+    color: #08399c;
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 20px;
+    height: 50px;
+    font-weight: 500;
+    border-style: none;
+}
+
+.col-lg-4 input {
+    font-size: 16px;
+    height: 50px;
+    border-style: none;
+}
+
+.search-query.ui-autocomplete-input {
+    color: #08399c;
+    padding-left: 20px;
+    border-style: none;
+    outline: none;
+    width: calc(100% - 94px);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search-query.ui-autocomplete-input::placeholder {
+    color: #08399c;
+}
+
+.button_submit {
+    width: 94px;
+    color: antiquewhite;
+    background-color: #00b8ff; 
+    margin-left: -5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 #Content {
