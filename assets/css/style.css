@@ -26,6 +26,7 @@ html {
     font-size: 12px;
 }
 
+
 .row {
     display: flex;
     height: 100%;
@@ -300,10 +301,78 @@ html {
     border-bottom-right-radius: 5px;
 }
 
-#Content {
+.Content_OMASP {
+    padding-top: 60px;
+    padding-bottom: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: calc((100% - 1300px)/2);
+    margin-right: calc((100% - 1300px)/2);
+    text-align: center;
+}
+
+.Content_OMASP .main_title {
+    margin-bottom: 45px;
+}
+
+.Content_OMASP .main_title h1 {
+    color: #040744;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.Content_OMASP .main_title p {
+    font-weight: 300;
+    font-size: 15px;
+    color: #777;
+    padding: 6px 10%;
+    letter-spacing: 0.8px;
+}
+
+.box_feat#icon_1 {
+    background: url(https://www.booknmeet.com/img/BNM-INDIA-L-H1.svg) center 45px no-repeat #fff;
+    padding-bottom: 40px;
+}
+
+.box_feat {
+    background-color: #fff;
+    padding: 165px 45px 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+}
+
+.box_feat#icon_2 {
+    background: url(https://www.booknmeet.com/img/BNM-INDIA-L-H2.svg) center 45px no-repeat #fff;
+    padding-bottom: 40px;
+}
+
+.box_feat#icon_3 {
+    background: url(https://www.booknmeet.com/img/BNM-INDIA-L-H3.svg) center 45px no-repeat #fff;
+}
+
+.box_feat h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #00b8ff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.box_feat p {
+    text-align: justify;
+    letter-spacing: 0.8px;
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.Content_WCB {
 
 }
 
-#Footer {
+.Footer {
 
 }
