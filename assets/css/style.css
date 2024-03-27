@@ -391,3 +391,294 @@ html {
 .Footer {
 
 }
+/*------------------------------  */
+.row.add_top_60.justify-content-around.text-right{
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: -15px;
+    margin-right: -15px;
+    justify-content: space-around;
+}
+#app_section{
+    background-image: url(https://www.booknmeet.com/img/hero_bg_1.svg);
+    background-repeat: repeat ;
+    background-color :  #040744;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: auto;
+    background-origin: padding-box;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    line-height: 18px;
+    padding-bottom: 60px;
+    padding-top: 90px;
+    text-align: left;
+    text-size-adjust: 100%;
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    color: #fff
+}
+.img-fluid-home{
+    width: 400px;
+    height: 200px;
+}
+.btn.btn-sm.btn-primary{
+    background-color: #00b8ff;
+    padding: 5px;
+    border: 0.8px solid #00b8ff;
+    box-sizing: border-box;
+    color: #fff;
+    border-radius: 3.2px;
+    text-decoration: none;
+}
+.btn.btn-sm.btn-primary:hover{
+    background-color: #fff;
+    color: #00b8ff;
+}
+#homepagesection.col-md-6 .lead{
+    text-align:justify;
+}
+ #homepagesection.col-md-6{
+    padding: 0px 15px ;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    flex-basis: 50%;
+    position: relative;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: auto;
+    max-width: 50%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.text-right #homepagesection.col-md-6{
+    text-align: right;
+}
+#app_section .container{
+    box-sizing: border-box;
+    display: block;
+    font-family:"Noto Sans JP",Helvetica,sans-serif;
+    font-weight: 400;
+    margin-left: auto ;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-md-5{
+    padding: 0px 15px;
+}
+#homepagesection.col-md-6 h3{
+    margin-bottom: 8px;
+}
+#app_section small {
+    font-weight: 600;
+    font-size: 13px;
+    font-size: .8125rem;
+    opacity: .6
+}
+#app_section h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 100;
+    font-size: 1.1rem
+}
+#app_section h3 strong {
+    color: #00deb9
+}
+#app_section p {
+    margin-bottom: 60px
+}
+p.lead {
+    font-weight: 100;
+    font-size: 20px;
+    font-size: .83rem
+}
+
+
+footer .container.margin_60_35{
+    box-sizing: border-box;
+    display: block;
+    font-family: "Noto Sans JP", Helvetica, sans-serif;
+    color: rgb(85, 85, 85);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 15px 35px;
+    text-align: left;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing : antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.col-lg-4.col-md-12 p{
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.margin_60_35 h5 {
+    margin-bottom: 15px;
+    color: rgb(153, 153, 153);
+    font-size: 13px;
+    line-height:15.936px;
+}
+.follow_us ul{
+    display: flex;
+    list-style-type: none;
+}
+.fa{
+    margin-right: 10px;
+    font-feature-settings: normal;
+    font-size: 16px;
+    color: #00b8ff;
+}
+.fab{
+    margin-right: 10px;
+    font-feature-settings: normal;
+    font-size: 16px;
+    color: #00b8ff;
+}
+.contacts a{
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    outline-style: none;
+    transition-duration: 0.3s;
+}
+.contacts a:hover{
+    color: #00b8ff;
+}
+.contacts{
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 35px;
+}
+.links{
+    list-style-type: none;
+    margin-bottom: 35px;
+}
+.links a{
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    outline-style: none;
+    transition-duration: 0.3s;
+}
+.links li{
+    margin-bottom: 10px;
+}
+.links a:hover{
+    color: #00b8ff;
+}
+.links a:hover::after{
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 12px;
+    margin-left: 5px;
+    transition-duration: 0.5s;
+}
+.col-lg-3.col-md-4 p{
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.col-lg-4.col-md-12{
+    display: block;
+    box-sizing: border-box;
+    flex-basis: 33.3333%;
+    max-width: 33.3333%;
+    height: 100%;
+    position: relative;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-lg-3.col-md-4{
+    display: block;
+    box-sizing: border-box;
+    flex-basis: 25%;
+    max-width: 25%;
+    height: 100%;
+    position: relative;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-lg-5.col-md-5{
+    max-width: 41.6667%;
+    flex-basis: 41.6667%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+}
+.col-lg-5.col-md-5 h5{
+    margin-bottom: 15px;
+    color: rgb(153, 153, 153);
+    font-size: 13px;
+    line-height: 15.936px;
+}
+#email_id{
+    color: #00b8ff;
+    padding: 6px 12px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #00b8ff; 
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.btn_1{
+    background-color: #00b8ff;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #00b8ff;
+    font-size: 14px;
+    text-decoration: none;
+}
+.btn_1:hover{
+    background-color: #3673b5;
+    color: #00b8ff;
+    transition-duration: 0.3s;
+}
+.col-lg-5.col-md-5 .btn.btn-sm.btn-primary{
+    background-color: #00b8ff;
+    padding: 5px;
+    border: 0.8px solid #00b8ff;
+    box-sizing: border-box;
+    color: #fff;
+    border-radius: 3.2px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+.col-lg-5.col-md-5 .btn.btn-sm.btn-primary:hover{
+    background-color: #3673b5;
+    color: #00b8ff;
+    transition-duration: 0.3s;
+}
+.col-lg-5.col-md-5 .btn.btn-sm.btn-primary i{
+    margin-right: 5px;
+}
+.col-lg-5.col-md-5 p{
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.row .col-md-12 p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.row{
+    margin: 0px 15px;
+}
+.col-md-12{
+    padding: 0px 15px ;
+}
+
